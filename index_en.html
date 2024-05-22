@@ -1,0 +1,425 @@
+<!-- 
+    使用 HTML5 開發 
+-->
+
+<!DOCTYPE html>
+
+<!-- 使用美國英文 -->
+<html lang = "en-US">
+
+    <head>
+
+        <meta charset = "UTF-8" />
+        <!-- 等比例縮放 -->
+        <meta name = "viewport"         content = "width = device - width, initial - scale = 1.0"/>
+        <meta name = "description"      content = "朱容徵，CCSH，blog"/>
+        <meta name = "keywords"         content = "朱容徵，CCSH，blog"/>
+        <meta name = "author"           content = "zong zong 朱容徵"/>
+        <!-- <meta http-equiv = "refresh"    content = "3"> -->
+        
+        <!-- 網頁標題，符號需要用 Unicode 呈現 -->
+        <title>
+            zong zong's personal blog &#8211; 臺北 Taipei
+        </title>
+
+        <!-- 使用相對路徑 -->
+        <link rel = "stylesheet" href = "./css/reset.css">
+        <link rel = "stylesheet" href = "./css/init.css">
+        <link rel = "stylesheet" href = "./css/form.css">
+        <link rel = "stylesheet" href = "./css/image.css">
+        <link rel = "stylesheet" href = "./css/font.css">
+
+        <!-- <script src = "./js/image.js"></script> -->
+
+    </head>
+
+    <body>
+
+        <!-- 整個主頁背景 -->
+        <div class = "page_base">
+
+            <!-- 主頁黏在上方的清單     list -->
+            <div class = "page_list">                
+                <div class = "box_list">
+
+                    <!-- 清單最右側的頭像 -->
+                    <div class = "box_list_self_shot">
+                        <div class = "homepage_list_self_shot_image">
+                            <img src = "image/personal_idle_16.png" alt = "" />
+                        </div>
+                    </div>
+    
+                    <!-- 清單上的選單按鈕 -->
+                    <div class = "box_list_set">
+
+                        <div class = "box_list_sub">
+                            <div class = "homepage_list_font">
+                                <a href = "#TOP" class = "homepage_hyperlink_list_font">
+                                    TOP
+                                </a>
+                            </div>
+                        </div>
+                        <div class = "box_list_sub">
+                            <div class = "homepage_list_font">
+                                <a href = "#HOME" class = "homepage_hyperlink_list_font">
+                                    HOME
+                                </a>
+                            </div>
+                        </div>
+                        <div class = "box_list_sub">
+                            <div class = "homepage_list_font">
+                                <a href = "#PORTFOLIO" class = "homepage_hyperlink_list_font">
+                                    PORTFOLIO
+                                </a>
+                            </div>
+                        </div>
+                        <div class = "box_list_sub">
+                            <div class = "homepage_list_font">
+                                <a href = "#PERSONAL" class = "homepage_hyperlink_list_font">
+                                    PERSONAL
+                                </a>
+                            </div>
+                        </div>
+                        <div class = "box_list_sub">
+                            <div class = "homepage_list_font">
+                                <a href = "#PROJECT" class = "homepage_hyperlink_list_font">
+                                    PROJECT
+                                </a>
+                            </div>
+                        </div>
+                        <div class = "box_list_sub">
+                            <div class = "homepage_list_font">
+                                <a href = "#OTHERS" class = "homepage_hyperlink_list_font">
+                                    OTHERS
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            
+            <!-- 主頁 首頁              Top -->
+            <div class = "box_homepage_background">
+
+                <!-- 主頁首頁的風景背景圖 -->
+                <div class = "homepage_background_image">
+                    <img src = "./image/background_3.jpg" alt = "homepage background image" />
+                    <!-- <img src = "" alt = "homepage background image" /> -->
+                </div>
+
+                <a id = "TOP">
+                    <div class = "blogger_font">
+                        Top
+                    </div>
+                </a>
+
+                <!-- 主頁黏在最左側的社群媒體 圖案 & 連結 -->
+                <div class = "box_homepage_icon_set">
+                    
+                    <div class = "box_homepage_icon_sub">
+                        <div class = "homepage_icon_image">
+                            <a href = "https://github.com/zongzong0408" target = _blank title = "GitHub">
+                                <img src = "./image/github.png" alt = "github" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class = "box_homepage_icon_sub">
+                        <div class = "homepage_icon_image">
+                            <a href = "https://youtube.com/@zongzong0408" target = _blank title = "YouTube">
+                                <img src = "./image/youtube.png" alt = "yt" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class = "box_homepage_icon_sub">
+                        <div class = "homepage_icon_image">
+                            <a href = "https://instagram.com/zong_zong_0408?igshid=OGQ5ZDc2ODk2ZA==" target = _blank title = "zong_zong_0408">
+                                <img src = "./image/instagram.png" alt = "ig" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class = "box_homepage_icon_sub">
+                        <div class = "homepage_icon_image">
+                            <a href = "https://discord.com/users/zongzongchu0408" target = _blank title = "zongzongchu0408">
+                                <img src = "./image/discord.png" alt = "discord" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class = "box_homepage_icon_sub">
+                        <div class = "homepage_icon_image">
+                            <a href = "https://www.facebook.com/profile.php?id=100009165031277&mibextid=LQQJ4d" target = _blank title = "朱容徵">
+                                <img src = "./image/facebook.png" alt = "fb" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class = "box_homepage_icon_sub">
+                        <div class = "homepage_icon_image">
+                            <a href = "https://ithelp.ithome.com.tw/users/20146314" target = _blank title = "zong zong">
+                                <img src = "./image/ithelp.png" alt = "it help" />
+                            </a>
+                        </div>
+                    </div>
+                
+                </div>
+                <!-- 主頁黏在最左側的社群媒體 名稱 -->
+                <div class = "box_homepage_icon_info_set">
+                  
+                    <div class = "box_homepage_icon_info_sub">
+                        <div class = "homepage_icon_font">
+                            GitHub
+                        </div>
+                    </div>
+                    <div class = "box_homepage_icon_info_sub">
+                        <div class = "homepage_icon_font">
+                            YouTube
+                        </div>
+                    </div>
+                    <div class = "box_homepage_icon_info_sub">
+                        <div class = "homepage_icon_font">
+                            Instagram
+                        </div>
+                    </div>
+                    <div class = "box_homepage_icon_info_sub">
+                        <div class = "homepage_icon_font">
+                            Discord
+                        </div>
+                    </div>
+                    <div class = "box_homepage_icon_info_sub">
+                        <div class = "homepage_icon_font">
+                            Facebook
+                        </div>
+                    </div>
+                    <div class = "box_homepage_icon_info_sub">
+                        <div class = "homepage_icon_font">
+                            IT help
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- 主頁首頁的個人大頭照圖 -->
+                <div class = "box_homepage_self_shot">
+                    <div id = "homepage_self_shot_image">
+                        <img src = "./image/personal_idle_3.png" alt = "homepage self shot image" />
+                        <!-- <img src = "" alt = "homepage self shot image" /> -->
+                    </div>
+                </div>
+
+                <!-- 主頁首頁的個人大頭照下面的英文名字 -->
+                <div class = "box_homepage_self_shot_info_EN">
+                    <div class = "homepage_self_shot_info_font_EN">
+                        zong zong
+                    </div>
+                </div>
+                <!-- 主頁首頁的個人大頭照下面的中文名字 -->
+                <div class = "box_homepage_self_shot_info_TW">
+                    <div class = "homepage_self_shot_info_font_TW">
+                        朱容徵
+                    </div>
+                </div>
+
+                <!-- 主頁首頁的錨點菜單 -->
+                <div class = "box_homepage_menu_set">
+
+                    <div class = "box_homepage_menu_sub">
+                        <div class = "homepage_menu_font">
+                            <a href = "#HOME" class = "homepage_hyperlink_menu_font">
+                                Home
+                            </a>
+                        </div>
+                    </div>
+                    <div class = "box_homepage_menu_sub">
+                        <div class = "homepage_menu_font">
+                            <a href = "#PORTFOLIO" class = "homepage_hyperlink_menu_font">
+                                Portfolio
+                            </a>
+                        </div>
+                    </div>
+                    <div class = "box_homepage_menu_sub">
+                        <div class = "homepage_menu_font">
+                            <a href = "#PERSONAL" class = "homepage_hyperlink_menu_font">
+                                Autobiography
+                            </a>
+                        </div>
+                    </div>
+                    <div class = "box_homepage_menu_sub">
+                        <div class = "homepage_menu_font">
+                            <a href = "#PROJECT" class = "homepage_hyperlink_menu_font">
+                                Project
+                            </a>
+                        </div>    
+                    </div>
+                    <div class = "box_homepage_menu_sub">
+                        <div class = "homepage_menu_font">
+                            <a href = "#OTHERS" class = "homepage_hyperlink_menu_font">
+                                Others Info
+                            </a>
+                        </div>
+                    </div>
+                
+                </div>
+
+                <div class = "box_homepage_menu_more">
+                    <div class = "homepage_menu_font">
+                        <a href = "pages_en/main_frist.html" class = "homepage_hyperlink_menu_font" target = "_blank" title = "more info">
+                            More Info
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class = "box_homepage_BLOCK">
+                <div class = "blogger_font">
+                    BLOCK
+                </div>
+            </div>
+
+            <!-- 主頁 網站介紹          Home -->
+            <div class = "box_homepage_home">
+                <div class = "blogger_font">
+                    BLOCK AREA
+                </div>
+                <a id = "HOME">
+                    <div class = "blogger_font">
+                        Home
+                    </div>
+                </a>
+                <div class = "box_homepage_info_title">
+                    <div class = "homepage_info_title_font_EN">
+                        Home
+                    </div>
+                </div>
+                <div class = "box_homepage_info_text">
+
+                    <div class = "homepage_info_text_font_EN">
+                        This is a personal blog website independently developed by zong zong Zhu Rongzheng, which is constructed using HTML5 and CSS.
+    
+                        The purpose is to put my three years of high school experience on this website and customize the presentation.
+
+                        The website structure and introduction are as follows:
+                            <picture>
+
+                        Reference pictures, materials, and technologies will be listed in detail on the "Others" tab.
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 主頁 個人履歷          Portfolio -->
+            <div class = "box_homepage_portfolio">
+                <a id = "PORTFOLIO">
+                    <div class = "blogger_font">
+                        Portfolio
+                    </div>
+                </a>
+                <div class = "box_homepage_info_title">
+                    <div class = "homepage_info_title_font_EN">
+                        Portfolio
+                    </div>
+                </div>
+                <div class = "box_homepage_info_text">
+                    <div class = "homepage_info_text_font_EN">
+                        Studying in the ordinary class of Taipei City Chung Cheng Senior High School, participated in many information activities during the three years of high school, including: 
+    
+                        Taiwan University Information Zhiya Python grammar class,
+                        
+                        AIS3 new type of information security summer course critical infrastructure security group, 
+                        
+                        IBM Skill Build, and two school exhibitions, APCS... and other activities.
+                    </div>
+                </div>
+            </div>
+
+            <!-- 主頁 個人專長 & 興趣   Personal(Autobiography) -->
+            <div class = "box_homepage_personal">
+                <a id = "PERSONAL">
+                    <div class = "blogger_font">
+                        Autobiography
+                    </div>
+                </a>
+                <div class = "box_homepage_info_title">
+                    <div class = "homepage_info_title_font_EN">
+                        Autobiography
+                    </div>
+                </div>
+                <div class = "box_homepage_info_text">
+                    <div class = "homepage_info_text_font_EN">
+                        Good at programming in C language, Python language, and C# language.
+                        
+                        Implemented C language to implement cryptography encryption theory, 
+                        
+                        used Python to do AI image recognition, and Unity 2d flat pixel game development.
+
+                        He has researched on network security, especially home AP security protection, 
+                        
+                        and is good at using airmon-ng with hashcat to implement home AP network attacks.
+                    </div>
+                </div>
+            </div>
+
+            <!-- 主頁 作品集            Project -->
+            <div class = "box_homepage_project">
+                <a id = "PROJECT">
+                    <div class = "blogger_font">
+                        Project
+                    </div>
+                </a>
+                <div class = "box_homepage_info_title">
+                    <div class = "homepage_info_title_font_EN">
+                        Project
+                    </div>
+                </div>
+                <div class = "box_homepage_info_text">
+                    <div class = "homepage_info_text_font_EN">
+                        Use C language to implement cryptography encryption theory, snake eating games, and landmine games; 
+    
+                        Python game character detection, garbage classification; 
+                        
+                        unity 2d fighter game, plane zombie game.
+                    
+                        Study the impact of deauthentication attacks on residential APs, 
+                        
+                        and the threat of BGP duress encountered in AIS3 on academic networks.
+                    </div>
+                </div>
+            </div>
+
+            <!-- 主頁 其他              Others -->
+            <div class = "box_homepage_others">
+                <a id = "OTHERS">
+                    <div class = "blogger_font">
+                        Others Info
+                    </div>
+                </a>
+                <div class = "box_homepage_info_title">
+                    <div class = "homepage_info_title_font_EN">
+                        Others Info
+                    </div>
+                </div>
+                <div class = "box_homepage_info_text">
+                    <div class = "homepage_info_text_font_EN">
+                        Home Background Image Cherry Blossom Pavilion Mountains and Rivers.png              Reference: 
+                        <a href = "http://www.qingjv.com/?cases_4/952.html" class = "homepage_hyperlink_reference_font">http://www.qingjv.com/?cases_4/952.html</a>
+                        Homepage Profile photo I am at Chunghwa Telecommunications College in Taichung.png  Reference: https://www.facebook.com/AIS3tw
+                    </div>
+                </div>
+            </div>
+
+            <!-- 主頁最下面彩蛋跑馬燈 -->
+            <div class = "box_homepage_marquee">
+                <marquee direction = "left" scrollamount = "5">
+                    <div class = "box_homepage_marquee_info">
+                        <div class = "homepage_marquee_image">
+                            <img src = "image/eva_show.gif" alt = "" />
+                        </div>  
+                    </div>
+                </marquee>
+            </div>
+
+        </div>
+
+    </body>
+    
+</html>

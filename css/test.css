@@ -1,0 +1,15 @@
+body{
+    height: 300vh;
+  }
+header{
+    height: 80px;
+    background: pink;
+}
+nav{
+    padding: 10px;
+    background: lightblue;
+    position: sticky;
+    top:0;
+}
+  
+  

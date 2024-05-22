@@ -1,0 +1,75 @@
+Home 主頁：
+
+    這是 zong zong 朱容徵 獨立開發之個人部落格網站，使用 HTML5 搭配 CSS 建設而成。
+    
+    目的為可以將自己高中三年的經歷放在這一個網站上，自定義做呈現。
+
+    網站架構、介紹如下：
+        <圖片>
+
+    參考之圖片、素材、技術將放在「其他」分頁做詳細列出。
+
+    This is a personal blog website independently developed by zong zong Zhu Rongzheng, which is constructed using HTML5 and CSS.
+    
+    The purpose is to put my three years of high school experience on this website and customize the presentation.
+
+    The website structure and introduction are as follows:
+        <picture>
+
+    Reference pictures, materials, and technologies will be listed in detail on the "Others" tab.
+
+Portfolio 履歷：
+
+    就讀臺北市立中正高級中學普通班，在高中三年參與過許多資訊活動，其中包括：臺灣大學資訊枝芽Python語法班、
+
+    AIS3新型態資安暑期課程關鍵基礎設施安全組、IBM Skill Build、以及兩次校內科展、APCS...等活動。
+
+    Studying in the ordinary class of Taipei City Chung Cheng Senior High School, participated in many information activities during the three years of high school, including: 
+    
+    Taiwan University Information Zhiya Python grammar class,
+    
+    AIS3 new type of information security summer course critical infrastructure security group, 
+    
+    IBM Skill Build, and two school exhibitions, APCS... and other activities.
+
+Personal 個人嗜好、專長：
+
+    擅長使用 C 語言、Python 語言、C# 語言 進行程式開發。
+    
+    實作過 C 語言實作密碼學加密理論、用 Python 做 AI 圖像辨識、Unity 2d 平面像素遊戲開發。
+
+    在網路安全尤其是對家用 AP 安全防護有所研究，擅長 airmon-ng 搭配 hashcat 實施家用 AP 網路攻擊。 
+
+    Good at programming in C language, Python language, and C# language.
+    
+    Implemented C language to implement cryptography encryption theory, 
+    
+    used Python to do AI image recognition, and Unity 2d flat pixel game development.
+
+    He has researched on network security, especially home AP security protection, 
+    
+    and is good at using airmon-ng with hashcat to implement home AP network attacks.
+
+Project 專案開發經歷
+
+    使用 C 語言實作密碼學加密理論、貪食蛇遊戲、踩地雷遊戲；Python 遊戲人物偵測、垃圾分類；unity 2d 戰機遊戲、平面打殭屍遊戲。
+   
+    研究解除認證攻擊對家用 AP 的影響，和在 AIS3 中遇到的 BGP 脅持對學術網路的威脅。
+
+    Use C language to implement cryptography encryption theory, snake eating games, and landmine games; 
+    
+    Python game character detection, garbage classification; 
+    
+    unity 2d fighter game, plane zombie game.
+   
+    Study the impact of deauthentication attacks on residential APs, 
+    
+    and the threat of BGP duress encountered in AIS3 on academic networks.
+
+Others 其他 & 參考資料
+
+    首頁 背景圖 樱花亭子山川.png 參考：http://www.qingjv.com/?cases_4/952.html
+    首頁 大頭照 我在台中中華電信學院.png 參考：https://www.facebook.com/AIS3tw
+
+    Home Background Image Cherry Blossom Pavilion Mountains and Rivers.png              Reference: http://www.qingjv.com/?cases_4/952.html
+    Homepage Profile photo I am at Chunghwa Telecommunications College in Taichung.png  Reference: https://www.facebook.com/AIS3tw

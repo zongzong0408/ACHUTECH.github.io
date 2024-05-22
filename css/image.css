@@ -1,0 +1,96 @@
+.homepage_background_image {  
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    
+    object-fit: cover;
+    overflow: hidden;
+    z-index: 3;
+}
+
+.homepage_list_self_shot_image {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    
+    object-fit: cover;
+    overflow: hidden;
+    z-index: 13;
+}
+
+.homepage_self_shot_image {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    
+    object-fit: cover;
+    overflow: hidden;
+    z-index: 5;
+}
+
+.homepage_icon_image {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    
+    object-fit: cover;
+    overflow: hidden;
+    z-index: 6;
+}
+
+.homepage_marquee_image {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+
+    object-fit: cover;
+    overflow: hidden;
+    z-index: 4;
+}
+
+.pages_main_background_image {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    
+    object-fit: cover;
+    overflow: hidden;
+    z-index: 3;
+}
+
+.pages_star_image {
+    width: 20px;
+    height: 20px;
+
+    position: absolute;
+
+    z-index: 10;
+}
+
+.pages_attached_image {
+    width: 80%;
+    height: 80%;
+
+    position: absolute;
+    
+    object-fit: cover;
+    overflow: hidden;
+    z-index: 4;
+}
+
+.project_exhibit_image {
+    width: 90%;
+    height: 90%;
+
+    position: relative;
+
+    object-fit: cover;
+    overflow: hidden;
+    z-index: 4;
+}

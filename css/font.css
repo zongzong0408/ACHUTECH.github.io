@@ -1,0 +1,248 @@
+a.homepage_hyperlink_list_font               {color: black;}
+a.homepage_hyperlink_list_font:link          {text-decoration: none;         color: black;}
+a.homepage_hyperlink_list_font:visited       {text-decoration: none;         color: black;}
+a.homepage_hyperlink_list_font:hover         {text-decoration: none;         color: gray;}
+a.homepage_hyperlink_list_font:active        {text-decoration: none;         color: black;}
+
+a.homepage_hyperlink_menu_font               {color: wheat;}
+a.homepage_hyperlink_menu_font:link          {text-decoration: none;         color: wheat;}
+a.homepage_hyperlink_menu_font:visited       {text-decoration: none;         color: wheat;}
+a.homepage_hyperlink_menu_font:hover         {text-decoration: none;         color: gray;}
+a.homepage_hyperlink_menu_font:active        {text-decoration: none;         color: black;}
+
+a.homepage_hyperlink_reference_font          {color: orange;}
+a.homepage_hyperlink_reference_font:link     {text-decoration: none;         color: orange;}
+a.homepage_hyperlink_reference_font:visited  {text-decoration: none;         color: orange;}
+a.homepage_hyperlink_reference_font:hover    {text-decoration: none;         color: gray;}
+a.homepage_hyperlink_reference_font:active   {text-decoration: none;         color: black;}
+
+a.homepage_hyperlink_download_font           {color: skyblue;}
+a.homepage_hyperlink_download_font:link      {text-decoration: none;         color: #00bfff;}
+a.homepage_hyperlink_download_font:visited   {text-decoration: none;         color: pink;}
+a.homepage_hyperlink_download_font:hover     {text-decoration: none;         color: gold;}
+a.homepage_hyperlink_download_font:active    {text-decoration: none;         color: black;}
+
+.homepage_list_font_EN {
+    font-family: Georgia, Arial, Serif;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+    color: whitesmoke;
+}
+
+.homepage_list_font_TW {
+    font-family: "Microsoft JhengHei", Arial, Serif;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+    color: whitesmoke;
+}
+
+.homepage_colorful_font {
+    background: linear-gradient(to top, #7fffd4, #00bfff, #0000cd, #da70d6, #9400d3, #4b0082);
+    background: -webkit-linear-gradient(to top, #7fffd4, #00bfff, #0000cd, #da70d6, #9400d3, #4b0082);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.homepage_self_shot_info_font_EN {
+    font-family: "Lucida Console", "Courier New", "Times New Roman", Arial, Serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    color: wheat;
+}
+
+.homepage_self_shot_info_font_TW {
+    font-family: "Microsoft JhengHei", "DFKai-sb", Arial, Serif;
+    font-size: 23px;
+    font-weight: 700;
+    font-style: normal;
+    color: #f5deb3;
+}
+
+.homepage_icon_font {
+    font-family: Arial, Sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+}
+
+.homepage_menu_font_EN {
+    font-family: "Lucida Console", "Times New Roman", Arial, Serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    color: wheat;
+}
+
+.homepage_menu_font_TW {
+    font-family: "Microsoft JhengHei", Arial, Serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    color: wheat;
+}
+
+.homepage_info_title_font_EN {
+    font-family: Georgia, "Times New Roman", Arial, Serif;
+    font-size: 55px;
+    font-weight: 700;
+    font-style: normal;
+    color: wheat;
+}
+
+.homepage_info_title_font_TW {
+    font-family: "Microsoft JhengHei", Arial, Serif;
+    font-size: 55px;
+    font-weight: 700;
+    font-style: normal;
+    color: wheat;
+}
+
+.homepage_info_title_font_TW {
+    font-family: 
+    "Microsoft JhengHei", Arial, Serif;
+    font-size: 55px;
+    font-weight: 700;
+    font-style: normal;
+    color: wheat;
+}
+
+.homepage_info_text_font_EN {
+    font-family: Arial, Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    color: white
+}
+
+.homepage_info_text_font_TW {
+    font-family: "Microsoft JhengHei", Arial, Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    color: white
+}
+
+.page_info_title_font_h2_EN {
+    font-family: Georgia, "Lucida Console", Arial, Sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 10px;
+    background-color: black;    
+}
+
+.page_info_title_font_h2_TW {
+    font-family: "Microsoft JhengHei", Arial, Sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 10px;
+    background-color: black;    
+}
+
+.page_info_title_font_h3_EN {
+    font-family: "Lucida Console", Arial, Sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    display: inline;
+    color: white;
+    background-color: black;
+}
+
+.page_info_title_font_h3_TW {
+    font-family: "Microsoft JhengHei", Arial, Sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    display: inline;
+    color: white;
+    background-color: black;
+}
+
+.page_info_text_font_EN {
+    font-family: Arial, Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    color: wheat    
+}
+
+.page_info_text_font_TW {
+    font-family: "Microsoft JhengHei", Arial, Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    color: wheat    
+}
+
+.page_info_note_font_EN {
+    font-family: "Courier New", Arial, Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;    
+    color: black;
+}
+
+.page_info_link_font {
+    font-family: "Lucida Console", Arial, Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+.page_info_date_font {
+    font-family: "Courier New", Arial, Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    color: wheat
+}
+
+.projects_info_title_font_TW {
+    font-family: "Microsoft JhengHei", Arial, Sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    font-style: normal;
+    color: #FBFAF5    
+}
+
+.projects_info_subtitle_font_TW {
+    font-family: "Microsoft JhengHei", Arial, Sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    color: #FBFAF5    
+}
+
+.projects_info_text_font_TW {
+    font-family: "Microsoft JhengHei", Arial, Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    color: #FBFAF5    
+}
+
+.projects_info_list_font_TW {
+    list-style-type: square;
+    list-style-position: outside;
+}
+
+.blogger_font {
+    user-select: none;
+    color: transparent;
+}
